@@ -10,10 +10,10 @@ class readFile {
         try {
   
 
-            FileReader fr = new FileReader("JatinInput.txt");
+            FileReader fr = new FileReader("dummyin.txt");
   
 
-            FileWriter fw = new FileWriter("JatinOUtput.txt");
+            FileWriter fw = new FileWriter("dummyout.txt");
 
             String str = "";
   
@@ -40,8 +40,7 @@ class readFile {
         catch (IOException e) {
   
   
-            System.out.println(
-                "There are some IOException");
+            System.out.println("IOException");
         }
     }
 }
